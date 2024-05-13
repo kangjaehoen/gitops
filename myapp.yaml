@@ -23,7 +23,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: kangjaeheon/human:latest
+      - image: nginx
         imagePullPolicy: IfNotPresent
         name: humastory2
         resources: {}
