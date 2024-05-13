@@ -23,7 +23,7 @@ spec:
         app: myapp
     spec:
       containers:
-              - image: kangjaeheon/human:latest
+      - image: rosehs00/humastory2:v2
         imagePullPolicy: IfNotPresent
         name: humastory2
         resources: {}
@@ -45,3 +45,4 @@ spec:
   type: NodePort
 status:
   loadBalancer: {}
+
