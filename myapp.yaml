@@ -23,7 +23,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: rosehs00/humastory2:v2
+      - image: kangjaeheon/human:latest
         imagePullPolicy: IfNotPresent
         name: humastory2
         resources: {}
